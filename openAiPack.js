@@ -12,7 +12,7 @@ export async function generator(req, res) {
   const imageSize = "512x512";
   try {
     const response = await openai.createImage({
-      //   prompt: " a tree with tractor wheels in a sci-fi fiction movie",
+      //   prompt: " a tree with golden leaves in a sci-fi fiction movie",
       prompt,
       n: 1,
       size: imageSize,
